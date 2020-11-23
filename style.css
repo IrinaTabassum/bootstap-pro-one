@@ -1,0 +1,200 @@
+ 
+   
+ 
+
+  .bagimg{
+	background-image:  linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)) ,url(images/img12.jpg);
+	background-size: 100% 100%;
+	background-attachment:fixed;
+	height:755px;
+	width: 100%;
+}
+
+.textcont{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+
+.textcont h1{
+	font-size: 60px;
+}
+
+.textcont p{
+	font-size: 35px;
+}
+
+
+
+/*serveses*/
+
+.ser{
+	padding: 50px 10px 40px;
+	height: 500px;
+ 
+}
+
+
+.rowsetting{
+	margin-top: 50px;
+
+}
+
+.rowsetting h2{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.rowsetting p{
+	margin: 15px;
+
+}
+.imgsetting{
+	border-radius: 50%;
+	height:80px;
+	width: 80px;
+	background-color:  #FFA500;
+
+}
+
+.facart{
+	margin-top: 16px;
+}
+
+.rowman{
+	padding:  10px 0px 10px;
+}
+
+
+/* Proatfoleo*/
+
+
+.prot{
+	padding: 50px 10px 40px;
+	height: 900px;
+}
+
+.textset{
+	margin-bottom: 60px;
+}
+
+
+/*team*/
+
+.amteam{
+	padding: 50px 10px 40px;
+	height: 600px;
+}
+
+
+/*responsive*/
+
+@media(min-width:768px) and (max-width: 991px ){
+
+.ser{
+	padding: 50px 10px 40px;
+	height: 600px;
+ 
+}
+
+.prot{
+	padding: 50px 10px 40px;
+	height: 800px;
+}
+ 
+
+ .amteam{
+	padding: 50px 10px 40px;
+	height: 600px;
+}
+
+
+}
+
+
+@media(min-width: 575px) and (max-width: 767px ){
+
+.rowsetting h2{
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+.rowsetting p{
+	font-size: 15px;
+}
+.ser{
+	padding: 50px 10px 40px;
+	height: 600px;
+ 
+}
+
+.prot{
+	padding: 50px 10px 40px;
+	height: 800px;
+}
+ 
+
+ .amteam{
+	padding: 50px 10px 40px;
+	height: 1300px;
+}
+
+
+}
+
+@media(min-width: 480px) and (max-width: 574px ){
+	
+	.ser{
+	padding: 50px 10px 40px;
+	height: 1000px;
+ 
+}
+
+.prot{
+	padding: 50px 10px 40px;
+	height: 2250px;
+}
+ 
+
+ .amteam{
+	padding: 50px 10px 40px;
+	height: 1300px;
+}
+
+
+
+}
+
+@media (max-width: 479px ){
+
+.textcont h1{
+	font-size: 30px;
+}
+
+.textcont p{
+	font-size: 20px;
+}
+
+.ser{
+	padding: 50px 10px 40px;
+	height: 1200px;
+ 
+}
+
+.prot{
+	padding: 50px 10px 40px;
+	height: 2150px;
+}
+ 
+
+ .amteam{
+	padding: 50px 10px 40px;
+	height: 1300px;
+}
+
+
+}
+
+
+
